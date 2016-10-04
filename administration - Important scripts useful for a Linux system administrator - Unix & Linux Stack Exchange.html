@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/QAPage"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>administration - Important scripts useful for a Linux system administrator - Unix &amp; Linux Stack Exchange</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/Sites/unix/img/favicon.ico?v=546c52892feb">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/Sites/unix/img/apple-touch-icon.png?v=5cf7fe716a89">
+    <link rel="search" type="application/opensearchdescription+xml" title="Unix &amp; Linux Stack Exchange" href="http://unix.stackexchange.com/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@StackUnix">
+    <meta name="twitter:domain" content="unix.stackexchange.com">
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/Sites/unix/img/apple-touch-icon@2.png?v=32fb07f7ce26&amp;a">
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Important scripts useful for a Linux system administrator">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="I am a Linux system administrator and constantly find myself doing the same chores again and again. I need some scripts to make life easier. What are the most important scripts needed by a Linux sy...">
+    <meta property="og:url" content="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator">
+    <link rel="canonical" href="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator">
+
+    
+    
+    <script type="text/javascript" async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/ados.js"></script><script async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/quant.js"></script><script async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/beacon.js"></script><script async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/analytics.js"></script><script type="text/javascript" async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/ados_002.js"></script><script src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/jquery.js"></script>
+    <script src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/stub.js"></script>
+    <link rel="stylesheet" type="text/css" href="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/all.css">
+
+            <meta name="twitter:app:country" content="US">
+            <meta name="twitter:app:name:iphone" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:iphone" content="871299723">
+            <meta name="twitter:app:url:iphone" content="se-zaphod://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator">
+            <meta name="twitter:app:name:ipad" content="Stack Exchange iOS">
+            <meta name="twitter:app:id:ipad" content="871299723">
+            <meta name="twitter:app:url:ipad" content="se-zaphod://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator">
+            <meta name="twitter:app:name:googleplay" content="Stack Exchange Android">
+            <meta name="twitter:app:url:googleplay" content="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator">
+            <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin">
+        <script>
+        
+            StackExchange.ready(function () {
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:6,shownCommentCount:5,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:125726});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('106', '125726');
+                                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script>
+
+
+    <script>
+        StackExchange.ready(function () {
+                        StackExchange.realtime.init('wss://qa.sockets.stackexchange.com,ws://qa.sockets.stackexchange.com');
+            StackExchange.realtime.subscribeToReputationNotifications('106');
+                StackExchange.realtime.subscribeToTopBarNotifications('106');
+        });
+    </script>
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","serverTime":1475577524,"routeName":"Questions/Show","site":{"name":"Unix & Linux Stack Exchange","description":"Q&A for users of Linux, FreeBSD and other Un*x-like operating systems","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":106,"enableInsertDocLinkDialog":false,"enableSocialMediaInSharePopup":true},"user":{"fkey":"b1bc42180e81d124a90d94407415b274","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"realtime":{"newest":true,"active":true,"tagged":true,"workerIframeDomain":"http://cdn.sstatic.net"}}, {"site":{"allowImageUploads":true,"enableUserHovercards":true,"styleCode":true},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"renderDomain":"stacksnippets.net"},"markdown":{"asteriskIntraWordEmphasis":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"b70d4b0a048c","js/moderator.en.js":"224639e4d81f","js/full-anon.en.js":"5ad243322808","js/full.en.js":"d135407b299b","js/wmd.en.js":"bd706a402e08","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"433c9c87f0ef","js/help.en.js":"a2f92aacc060","js/tageditor.en.js":"1d50aaf81026","js/tageditornew.en.js":"5f4d5136d0b1","js/inline-tag-editing.en.js":"a815357d00cd","js/revisions.en.js":"cf90cfea0ccf","js/review.en.js":"7020bbf0dbd2","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"0bc8c0d431b4","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"e8bb8851e628","js/keyboard-shortcuts.en.js":"b766463415ee","js/external-editor.en.js":"fc20a49e5703"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script>
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+<script async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/full-anon.js"></script><script async="" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/post-validation.js"></script><script type="text/javascript" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/adFeedback.js"></script><link rel="stylesheet" href="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/adFeedback.css"></head>
+<body class="question-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    
+
+
+
+    <div id="notify-container"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="http://unix.stackexchange.com/">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackexchange.com/?tab=site&amp;host=unix.stackexchange.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+            </div>
+
+
+
+
+    <a href="http://unix.stackexchange.com/" class="current-site-link site-link js-gps-track" data-id="106" data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-unix" title="Unix &amp; Linux"></div>
+        Unix &amp; Linux
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.unix.stackexchange.com/" class="site-link js-gps-track" data-id="108" data-gps-track="
+            site.switch({ target_site:108, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-unixmeta" title="Unix &amp; Linux Meta"></div>
+        Unix &amp; Linux Meta
+    </a>
+
+                </li>
+        </ul>
+    </div>
+    <div class="header" id="your-communities-header">
+        <h3>
+your communities        </h3>
+            
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <div class="call-to-login">
+<a href="https://unix.stackexchange.com/users/signup?ssrc=site_switcher&amp;returnurl=http%3a%2f%2funix.stackexchange.com%2fquestions%2f125726%2fimportant-scripts-useful-for-a-linux-system-administrator" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="https://unix.stackexchange.com/users/login?ssrc=site_switcher&amp;returnurl=http%3a%2f%2funix.stackexchange.com%2fquestions%2f125726%2fimportant-scripts-useful-for-a-linux-system-administrator" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+            </div>
+    </div>
+    <div class="header">
+        <h3><a href="http://stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com/" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+                <a href="http://stackexchange.com/" class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 161 Stack Exchange sites">
+                    <span class="hidden-text">Stack Exchange</span>
+                </a>
+
+    <a href="#" class="topbar-icon icon-inbox yes-hover js-inbox-button" title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+    </a>
+    <a href="#" class="topbar-icon icon-achievements yes-hover js-achievements-button" data-unread-class="" title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+            
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <div class="links-container">
+                <span class="topbar-menu-links">
+                                    <a href="https://unix.stackexchange.com/users/signup?ssrc=head&amp;returnurl=http%3a%2f%2funix.stackexchange.com%2fquestions%2f125726%2fimportant-scripts-useful-for-a-linux-system-administrator" class="login-link">sign up</a>
+                                <a href="https://unix.stackexchange.com/users/login?ssrc=head&amp;returnurl=http%3a%2f%2funix.stackexchange.com%2fquestions%2f125726%2fimportant-scripts-useful-for-a-linux-system-administrator" class="login-link">log in</a>
+
+                            <a href="http://unix.stackexchange.com/tour">tour</a>
+        <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+            help
+            <span class="triangle"></span>
+        </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="http://unix.stackexchange.com/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://unix.stackexchange.com/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="http://meta.unix.stackexchange.com/" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                                Meta
+                                <span class="item-summary">
+                                    Discuss the workings and policies of this site
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                                About Us
+                                <span class="item-summary">
+                                    Learn more about Stack Overflow the company
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://business.stackoverflow.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                                Business
+                                <span class="item-summary">
+                                    Learn more about hiring developers or posting ads with us
+                                </span>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+                                            </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" placeholder="Search Q&amp;A" tabindex="1" autocomplete="off" maxlength="240" type="text">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="http://unix.stackexchange.com/">
+                    Unix &amp; Linux
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li class="youarehere"><a id="nav-questions" href="http://unix.stackexchange.com/questions">Questions</a></li>
+                                                <li><a id="nav-tags" href="http://unix.stackexchange.com/tags">Tags</a></li>
+                        <li><a id="nav-users" href="http://unix.stackexchange.com/users">Users</a></li>
+                        <li><a id="nav-badges" href="http://unix.stackexchange.com/help/badges">Badges</a></li>
+                        <li><a id="nav-unanswered" href="http://unix.stackexchange.com/unanswered">Unanswered</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion" href="http://unix.stackexchange.com/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content">
+            
+
+<div itemscope="" itemtype="http://schema.org/Question">
+    <link itemprop="image" href="http://cdn.sstatic.net/Sites/unix/img/apple-touch-icon.png?v=5cf7fe716a89">
+
+
+    <div id="herobox">
+        <div id="hero-content">
+                <div id="close"><a title="click to minimize">_</a></div>
+            <div id="blurb">
+                Unix &amp; Linux Stack Exchange is a question and answer
+ site for users of Linux, FreeBSD and other Un*x-like operating systems.
+ Join them; it only takes a minute:
+                <br>
+                <br>
+                <a href="http://unix.stackexchange.com/users/signup?ssrc=hero&amp;returnurl=http%3a%2f%2funix.stackexchange.com%2fquestions%2f125726%2fimportant-scripts-useful-for-a-linux-system-administrator" id="tell-me-more" class="button">Sign up</a>
+            </div>
+            <div id="desc">
+                <b>Here's how it works:</b>
+                <ol id="hiw">
+                    <li id="q">Anybody can ask a question
+                    </li>
+                    <li id="an">Anybody can answer
+                    </li>
+                    <li id="b">The best answers are voted up and rise to the top
+                    </li>
+                </ol>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+<script>
+    StackExchange.ready(function () {
+
+        var location = 0;
+        if ($("body").hasClass("questions-page")) {
+            location = 1;;
+        } else if ($("body").hasClass("question-page")) {
+            location = 1;;
+        } else if ($("body").hasClass("faq-page")) {
+            location = 5;;
+        } else if ($("body").hasClass("home-page")) {
+            location = 3;;
+        }
+
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
+            });
+        });
+        $('#herobox #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize", location: location }, true);
+            });
+            $.cookie("hero", "mini", { path: "/", expires: 365 });
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $("#herobox").fadeOut("fast", function () {
+                        $("#herobox").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    });
+
+</script>			<div id="question-header">
+                <h1 itemprop="name"><a href="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator" class="question-hyperlink">Important scripts useful for a Linux system administrator [closed]</a></h1>
+		</div>
+			<div id="mainbar">
+
+			
+
+<div class="question" data-questionid="125726" id="question">
+
+    <script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,0,"adzerk466481199",4).enableDynamicSiteSelection().setZone(29); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk466481199"><a href="http://engine.adzerk.net/r?e=eyJhdiI6MTE5NzQsImF0Ijo0LCJidCI6MCwiY20iOjQyOTM5MywiY2giOjE2NTMxLCJjayI6e30sImNyIjoxNTAwOTQwLCJkaSI6ImMwOWM4ZTg4MjViODRiOTNhNzNjOTQ5MzQzZGRhNzhmIiwiZG0iOjEsImZjIjoxNzQ1Njc3LCJmbCI6MTczODE3OSwiaXAiOiIxMDYuNTEuMzkuMTczIiwia3ciOiJhZG1pbmlzdHJhdGlvbix4LWNvbW11bml0eSx4LWhvc3QtdW5peC5zdGFja2V4Y2hhbmdlLmNvbSIsIm53IjoyMiwicGMiOjAsImVjIjowLCJwciI6NjQ4NzIsInJ0IjoyLCJzdCI6NTY3NTIsInVrIjoidWUxLTkyZjRkN2QxMGY1NzQ0ZDU5NTJkOGEwMTVjOTRkNDRiIiwiem4iOjI5LCJ0cyI6MTQ3NTU3NzUzMDI5OSwiYmYiOnRydWUsInBuIjoiYWR6ZXJrNDY2NDgxMTk5IiwidXIiOiJodHRwczovL3d3dy5sZWFkdG9vbHMuY29tL3Nkay9iYXJjb2RlL2RlZmF1bHQuaHRtP3V0bV9zb3VyY2U9U3RhY2tPdmVyZmxvdy5jb20mdXRtX21lZGl1bT1iYW5uZXImdXRtX2NhbXBhaWduPVN0YWNrT3ZlcmZsb3ctQmFubmVyLVJPTiZTcmNPcmlnaW49U3RhY2tPdmVyZmxvdy1CYW5uZXItUk9OIn0&amp;s=xpqGU8YsP3-zCu16O0gg1-o0CZY" rel="nofollow" target="_blank" title=""><img src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/eb2a49ad6af94bfd905f0be9ab1dd337.jpg" title="" alt="" width="728" height="90" border="0"></a><div class="adzerk-vote-controls" style="display:none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input value="12" name="downvoteReason" type="radio">Uninteresting</label></li><li><label><input value="13" name="downvoteReason" type="radio">Misleading</label></li><li><label><input value="14" name="downvoteReason" type="radio">Offensive</label></li><li><label><input value="15" name="downvoteReason" type="radio">Repetitive</label></li><li><label><input value="16" name="downvoteReason" type="radio">Other</label></li></ul><a href="#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div><img style="position:absolute;" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/i_002.gif" width="0px" height="0px" border="0"></div>    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="125726" type="hidden">
+        <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">1</span>
+        <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+        <a class="star-off" href="#">favorite</a>
+        <div class="favoritecount"><b>5</b></div>
+
+
+</div>
+
+            </td>
+            
+<td class="postcell">
+<div>
+    <div class="post-text" itemprop="text">
+
+<p>I am a Linux system administrator and constantly find myself doing 
+the same chores again and again. I need some scripts to make life 
+easier. What are the most important scripts needed by a Linux system 
+administrator?</p>
+    </div>
+    <div class="post-taglist">
+        <a href="http://unix.stackexchange.com/questions/tagged/administration" class="post-tag js-gps-track" title="show questions tagged 'administration'" rel="tag">administration</a> 
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://unix.stackexchange.com/q/125726" title="short permalink to this question" class="short-link" id="link-post-125726">share</a><span class="lsep">|</span><a href="http://unix.stackexchange.com/posts/125726/edit" class="suggest-edit-post" title="">improve this question</a></div>        
+    </td>
+    <td class="post-signature owner">
+        <div class="user-info user-hover">
+    <div class="user-action-time">
+        asked <span title="2014-04-21 02:49:28Z" class="relativetime">Apr 21 '14 at 2:49</span>
+    </div>
+    <div class="user-gravatar32">
+        <a href="http://unix.stackexchange.com/users/47538/ramesh"><div class="gravatar-wrapper-32"><img src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/778566ce4f83f11d2c9253780b8691b2.png" alt="" width="32" height="32"></div></a>
+    </div>
+    <div class="user-details">
+        <a href="http://unix.stackexchange.com/users/47538/ramesh">Ramesh</a>
+        <div class="-flair">
+            <span class="reputation-score" title="reputation score 15,895" dir="ltr">15.9k</span><span title="16 gold badges"><span class="badge1"></span><span class="badgecount">16</span></span><span title="74 silver badges"><span class="badge2"></span><span class="badgecount">74</span></span><span title="124 bronze badges"><span class="badge3"></span><span class="badgecount">124</span></span>
+        </div>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</div>
+</td>
+        </tr>
+                    <tr>
+            <td class="special-status" colspan="2">
+                <div class="question-status">
+        <h2>                    <b>closed</b> as too broad by <a href="http://unix.stackexchange.com/users/10762/chris-down">Chris Down</a>, <a href="http://unix.stackexchange.com/users/7453/slm">slm</a><span class="mod-flair" title="moderator">♦</span>, <a href="http://unix.stackexchange.com/users/6761/jasonwryan">jasonwryan</a>, <a href="http://unix.stackexchange.com/users/4358/patrick">Patrick</a>, <a href="http://unix.stackexchange.com/users/47538/ramesh">Ramesh</a> <span dir="ltr"><span title="2014-04-21 03:59:59Z" class="relativetime">Apr 21 '14 at 3:59</span></span>
+</h2>
+        <p>There are either too many possible answers, or good answers 
+would be too long for this format.   Please add details to narrow the 
+answer set or to isolate an issue that can be answered in a few 
+paragraphs.<span class="close-status-suffix">If this question can be reworded to fit the rules in the <a href="http://unix.stackexchange.com/help/closed-questions">help center</a>, please <a href="http://unix.stackexchange.com/posts/125726/edit">edit the question</a>.</span></p>
+    </div>
+            </td>
+        </tr>
+    
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-125726" class="comments ">
+		    <table>
+                <tbody data-remaining-comments-count="1" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+    <tr id="comment-200746" class="comment ">
+        <td class="comment-actions">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                <span title="number of 'useful comment' votes received" class="cool">1</span>
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">I appreciate what you're 
+trying to do but don't think this is really a good fit for the SE way. 
+Perhaps you could add these as standalone scripts in a github "project" 
+that you start and everyone that wants to contribute could submit pull 
+requests back to you instead? Also you might want to consider taking 
+your idea and contributing something like this as a primer to get ppl 
+(SA's) started tp the U&amp;L blog.</span>
+                    –&nbsp;<a href="http://unix.stackexchange.com/users/7453/slm" title="164,101 reputation" class="comment-user">slm<span class="mod-flair" title="moderator">♦</span></a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment200746_125726"><span title="2014-04-21 03:18:50Z" class="relativetime-clean">Apr 21 '14 at 3:18</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-200747" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Sure, I wanted to get suggestion before posting but saw noone in chat and posted it. I can put it in the U &amp; L blog.</span>
+                    –&nbsp;<a href="http://unix.stackexchange.com/users/47538/ramesh" title="15,895 reputation" class="comment-user owner">Ramesh</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment200747_125726"><span title="2014-04-21 03:20:13Z" class="relativetime-clean">Apr 21 '14 at 3:20</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-200748" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">How should I move it to the blog? Please let me know.</span>
+                    –&nbsp;<a href="http://unix.stackexchange.com/users/47538/ramesh" title="15,895 reputation" class="comment-user owner">Ramesh</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment200748_125726"><span title="2014-04-21 03:20:47Z" class="relativetime-clean">Apr 21 '14 at 3:20</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-200750" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">Speak with strugee. He's in charge of that.</span>
+                    –&nbsp;<a href="http://unix.stackexchange.com/users/7453/slm" title="164,101 reputation" class="comment-user">slm<span class="mod-flair" title="moderator">♦</span></a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment200750_125726"><span title="2014-04-21 03:21:52Z" class="relativetime-clean">Apr 21 '14 at 3:21</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+    <tr id="comment-200751" class="comment ">
+        <td>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class=" comment-score">
+                                &nbsp;&nbsp;
+                        </td>
+                        <td>
+                                &nbsp;
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="comment-text">
+            <div style="display: block;" class="comment-body">
+                <span class="comment-copy">@slm, sure. Thanks.</span>
+                    –&nbsp;<a href="http://unix.stackexchange.com/users/47538/ramesh" title="15,895 reputation" class="comment-user owner">Ramesh</a>
+                <span class="comment-date" dir="ltr"><a class="comment-link" href="#comment200751_125726"><span title="2014-04-21 03:23:09Z" class="relativetime-clean">Apr 21 '14 at 3:23</span></a></span>
+                                                                            </div>
+                    </td>
+    </tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-125726" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link  dno" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments."></a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link " title="expand to show all comments on this post" href="#" onclick="">show <b>1</b> more comment</a>
+        </div>         
+    </td>
+</tr>        </tbody></table>
+</div>
+
+			<div id="answers">
+
+				<a name="tab-top"></a>
+				<div id="answers-header">
+					<div class="subheader answers-subheader">
+						<h2>
+								1 Answer
+                                <span style="display:none;" itemprop="answerCount">1</span>
+						</h2>
+						<div>
+							<div id="tabs">
+        <a href="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A">
+            active</a>
+        <a href="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O">
+            oldest</a>
+        <a class="youarehere" href="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V">
+            votes</a>
+</div>
+						</div>
+					</div>    
+				</div>    
+
+
+
+
+  
+<a name="125727"></a>
+<div id="answer-125727" class="answer accepted-answer" data-answerid="125727" itemscope="" itemtype="http://schema.org/Answer" itemprop="acceptedAnswer">
+    <table>
+        <tbody><tr>
+            <td class="votecell">
+                
+
+<div class="vote">
+        <input name="_id_" value="125727" type="hidden">
+        <a class="vote-up-off" title="This answer is useful">up vote</a>
+        <span itemprop="upvoteCount" class="vote-count-post ">3</span>
+        <a class="vote-down-off" title="This answer is not useful">down vote</a>
+
+
+
+        <span class="vote-accepted-on load-accepted-answer-date" title="loading when this answer was accepted...">accepted</span>
+
+</div>
+
+            </td>
+            
+
+
+<td class="answercell">
+    <div class="post-text" itemprop="text">
+<p>While all the scripts provided below may be accurate, there may be 
+much more advanced features available. However, these scripts are just 
+to give an overview of how things are meant to be done for a systems 
+administrator. I did not make any of the below scripts and all scripts' 
+references are given inline along with their description. </p>
+
+<p><strong>Disk usage</strong></p>
+
+<p>This script will be useful to analyze the disk usage and if the 
+reported disk space is more than 90 % an email will be sent to the 
+administrator. The script is taken from <a href="http://www.cyberciti.biz/tips/shell-script-to-watch-the-disk-space.html" rel="nofollow">here</a>.</p>
+
+<pre><code>#!/bin/sh
+# set -x
+# Shell script to monitor or watch the disk space
+# It will send an email to $ADMIN, if the (free available) percentage of space is &gt;= 90%.
+# -------------------------------------------------------------------------
+# Set admin email so that you can get email.
+ADMIN="root"
+# set alert level 90% is default
+ALERT=90
+# Exclude list of unwanted monitoring, if several partions then use "|" to separate the partitions.
+# An example: EXCLUDE_LIST="/dev/hdd1|/dev/hdc5"
+EXCLUDE_LIST="/auto/ripper"
+#
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#
+function main_prog() {
+while read output;
+do
+#echo $output
+  usep=$(echo $output | awk '{ print $1}' | cut -d'%' -f1)
+  partition=$(echo $output | awk '{print $2}')
+  if [ $usep -ge $ALERT ] ; then
+     echo "Running out of space \"$partition ($usep%)\" on server $(hostname), $(date)" | \
+     mail -s "Alert: Almost out of disk space $usep%" $ADMIN
+  fi
+done
+}
+if [ "$EXCLUDE_LIST" != "" ] ; then
+  df -H | grep -vE "^Filesystem|tmpfs|cdrom|${EXCLUDE_LIST}" | awk '{print $5 " " $6}' | main_prog
+else
+  df -H | grep -vE "^Filesystem|tmpfs|cdrom" | awk '{print $5 " " $6}' | main_prog
+fi
+</code></pre>
+
+<p><strong>Incremental Backup Scripts</strong></p>
+
+<p>This script will do the incremental backup into an external mounted 
+hard-drive. It is to take a backup of the /home directory. However, it 
+can be modified to suit the requirements. The script is taken from <a href="http://www.mikerubel.org/computers/rsync_snapshots/" rel="nofollow">here</a>.</p>
+
+<pre><code>#!/bin/bash
+# ----------------------------------------------------------------------
+# mikes handy rotating-filesystem-snapshot utility
+# ----------------------------------------------------------------------
+# this needs to be a lot more general, but the basic idea is it makes
+# rotating backup-snapshots of /home whenever called
+# ----------------------------------------------------------------------
+
+unset PATH  # suggestion from H. Milz: avoid accidental use of $PATH
+
+# ------------- system commands used by this script --------------------
+ID=/usr/bin/id;
+ECHO=/bin/echo;
+
+MOUNT=/bin/mount;
+RM=/bin/rm;
+MV=/bin/mv;
+CP=/bin/cp;
+TOUCH=/bin/touch;
+
+RSYNC=/usr/bin/rsync;
+
+
+# ------------- file locations -----------------------------------------
+
+MOUNT_DEVICE=/dev/hdb1;
+SNAPSHOT_RW=/root/snapshot;
+EXCLUDES=/usr/local/etc/backup_exclude;
+
+
+# ------------- the script itself --------------------------------------
+
+# make sure we're running as root
+if (( `$ID -u` != 0 )); then { $ECHO "Sorry, must be root.  Exiting..."; exit; } fi
+
+# attempt to remount the RW mount point as RW; else abort
+$MOUNT -o remount,rw $MOUNT_DEVICE $SNAPSHOT_RW ;
+if (( $? )); then
+{
+    $ECHO "snapshot: could not remount $SNAPSHOT_RW readwrite";
+    exit;
+}
+fi;
+
+
+# rotating snapshots of /home (fixme: this should be more general)
+
+# step 1: delete the oldest snapshot, if it exists:
+if [ -d $SNAPSHOT_RW/home/hourly.3 ] ; then         \
+$RM -rf $SNAPSHOT_RW/home/hourly.3 ;                \
+fi ;
+
+# step 2: shift the middle snapshots(s) back by one, if they exist
+if [ -d $SNAPSHOT_RW/home/hourly.2 ] ; then         \
+$MV $SNAPSHOT_RW/home/hourly.2 $SNAPSHOT_RW/home/hourly.3 ; \
+fi;
+if [ -d $SNAPSHOT_RW/home/hourly.1 ] ; then         \
+$MV $SNAPSHOT_RW/home/hourly.1 $SNAPSHOT_RW/home/hourly.2 ; \
+fi;
+
+# step 3: make a hard-link-only (except for dirs) copy of the latest snapshot,
+# if that exists
+if [ -d $SNAPSHOT_RW/home/hourly.0 ] ; then         \
+$CP -al $SNAPSHOT_RW/home/hourly.0 $SNAPSHOT_RW/home/hourly.1 ; \
+fi;
+
+# step 4: rsync from the system into the latest snapshot (notice that
+# rsync behaves like cp --remove-destination by default, so the destination
+# is unlinked first.  If it were not so, this would copy over the other
+# snapshot(s) too!
+$RSYNC                              \
+    -va --delete --delete-excluded              \
+    --exclude-from="$EXCLUDES"              \
+    /home/ $SNAPSHOT_RW/home/hourly.0 ;
+
+# step 5: update the mtime of hourly.0 to reflect the snapshot time
+$TOUCH $SNAPSHOT_RW/home/hourly.0 ;
+
+# and thats it for home.
+
+# now remount the RW snapshot mountpoint as readonly
+
+$MOUNT -o remount,ro $MOUNT_DEVICE $SNAPSHOT_RW ;
+if (( $? )); then
+{
+    $ECHO "snapshot: could not remount $SNAPSHOT_RW readonly";
+    exit;
+} fi;
+</code></pre>
+
+<p><strong>High CPU Usage Script</strong></p>
+
+<p>At times, we need to monitor the high CPU usage in the system. We can
+ use the below script to monitor the high CPU usage. The script is taken
+ from <a href="http://stackoverflow.com/questions/20117586/rather-high-cpu-usage-with-memory-monitoring-bash-script">here</a>.</p>
+
+<pre><code>#!/bin/bash
+while [ true ] ;do
+used=`free -m |awk 'NR==3 {print $4}'`
+
+if [ $used -lt 1000 ] &amp;&amp; [ $used -gt 800 ]; then
+echo "Free memory is below 1000MB. Possible memory leak!!!" | /bin/mail -s "HIGH MEMORY ALERT!!!" user@mydomain.com
+
+
+fi
+sleep 5
+done
+</code></pre>
+
+<p><strong>Adding new users to a Linux system</strong></p>
+
+<p>This script allows the root user or admin to add new users to the 
+system in an easier way by just typing the user name and password (The 
+password is entered in an encrypted manner). 
+The below script is taken from <a href="http://www.cyberciti.biz/tips/howto-write-shell-script-to-add-user.html" rel="nofollow">here</a>.</p>
+
+<pre><code>#!/bin/bash
+# Script to add a user to Linux system
+if [ $(id -u) -eq 0 ]; then
+    read -p "Enter username : " username
+    read -s -p "Enter password : " password
+    egrep "^$username" /etc/passwd &gt;/dev/null
+    if [ $? -eq 0 ]; then
+        echo "$username exists!"
+        exit 1
+    else
+        pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
+        useradd -m -p $pass $username
+        [ $? -eq 0 ] &amp;&amp; echo "User has been added to system!" || echo "Failed to add a user!"
+    fi
+else
+    echo "Only root may add a user to the system"
+    exit 2
+fi
+</code></pre>
+
+<p><strong>Database Backup</strong></p>
+
+<p>This script is a pretty basic script useful in backing up the database. The script is taken from <a href="http://stackoverflow.com/questions/19664893/linux-shell-script-for-database-backup">here</a>.</p>
+
+<pre><code>#!/bin/sh
+now="$(date +'%d_%m_%Y_%H_%M_%S')"
+filename="db_backup_$now".gz
+backupfolder="/var/www/vhosts/example.com/httpdocs/backups"
+fullpathbackupfile="$backupfolder/$filename"
+logfile="$backupfolder/"backup_log_"$(date +'%Y_%m')".txt
+echo "mysqldump started at $(date +'%d-%m-%Y %H:%M:%S')" &gt;&gt; "$logfile"
+mysqldump --user=mydbuser--password=mypass --default-character-set=utf8 mydatabase | gzip &gt; "$fullpathbackupfile"
+echo "mysqldump finished at $(date +'%d-%m-%Y %H:%M:%S')" &gt;&gt; "$logfile"
+chown myuser "$fullpathbackupfile"
+chown myuser "$logfile"
+echo "file permission changed" &gt;&gt; "$logfile"
+find "$backupfolder" -name db_backup_* -mtime +8 -exec rm {} \;
+echo "old files deleted" &gt;&gt; "$logfile"
+echo "operation finished at $(date +'%d-%m-%Y %H:%M:%S')" &gt;&gt; "$logfile"
+echo "*****************" &gt;&gt; "$logfile"
+exit 0
+</code></pre>
+    </div>
+    <table class="fw">
+    <tbody><tr>
+    <td class="vt">
+<div class="post-menu"><a href="http://unix.stackexchange.com/a/125727" title="short permalink to this answer" class="short-link" id="link-post-125727">share</a><span class="lsep">|</span><a href="http://unix.stackexchange.com/posts/125727/edit" class="suggest-edit-post" title="">improve this answer</a></div>                    </td>
+    <td class="post-signature" align="right">
+<div class="user-info ">
+    <div class="user-action-time">
+        answered <a href="http://unix.stackexchange.com/posts/125727/revisions" title="show all edits to this post"><span title="2014-04-21 02:49:28Z" class="relativetime">Apr 21 '14 at 2:49</span></a>
+    </div>
+    <div class="user-gravatar32">
+        
+    </div>
+    <div class="user-details">
+        
+        <div class="-flair">
+            
+        </div>
+    </div>
+</div>    </td>
+            
+
+
+    <td class="post-signature owner" align="right">   
+       
+
+    <div class="user-info">
+    <div class="user-details">
+        <span class="community-wiki" title="This post is community owned as of Apr 21 '14 at 2:49. Votes do not generate reputation, and it can be edited by users with 100 rep">
+            community wiki
+        </span>
+    </div><br>
+    <div class="user-details">
+        <a id="history-125727" href="http://unix.stackexchange.com/posts/125727/revisions" title="show revision history for this post">
+        Ramesh
+        </a>
+    </div>
+</div>
+    </td>
+    </tr>
+    </tbody></table>
+</td>
+        </tr>
+        
+<tr>
+    <td class="votecell"></td>
+    <td>
+	    <div id="comments-125727" class="comments  dno">
+		    <table>
+                <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+                        <tr><td></td><td></td></tr>
+                </tbody>
+		    </table>
+	    </div>
+
+        <div id="comments-link-125727" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a>
+        </div>         
+    </td>
+</tr>    </tbody></table>
+</div>
+				
+
+
+						<h2 class="bottom-notice" data-loc="1">
+Not the answer you're looking for?							Browse other questions tagged <a href="http://unix.stackexchange.com/questions/tagged/administration" class="post-tag" title="show questions tagged 'administration'" rel="tag">administration</a>  or <a href="http://unix.stackexchange.com/questions/ask">ask your own question</a>.						</h2>
+			</div>
+		</div>
+				<div id="sidebar" class="show-votes">
+						    <div class="module question-stats">
+			        <table id="qinfo">
+			            <tbody><tr>
+			                <td>
+			                    <p class="label-key">asked</p>
+			                </td>
+			                <td style="padding-left: 10px">
+			                    <p class="label-key" title="2014-04-21 02:49:28Z"><b>2 years ago</b></p>
+			                </td>
+			            </tr>
+			            <tr>
+			                <td>
+			                    <p class="label-key">viewed</p>
+			                </td>
+
+			                <td style="padding-left: 10px">
+			                    <p class="label-key">
+			                        <b>22331 times</b>
+			                    </p>
+			                </td>
+			            </tr>
+			                <tr>
+			                    <td>
+			                        <p class="label-key">active</p>
+			                    </td>
+			                    <td style="padding-left: 10px">
+			                        <p class="label-key"><b><a href="http://unix.stackexchange.com/questions/125726/important-scripts-useful-for-a-linux-system-administrator?lastactivity" class="lastactivity-link" title="2014-04-21 02:49:28Z">2 years ago</a></b></p>
+			                    </td>
+			                </tr>
+			        </tbody></table>
+			    </div>
+			<div class="module community-bulletin" data-tracker="cb=1">
+    <div class="related">
+                <div class="bulletin-title">
+                    Blog
+                </div>
+                <hr>
+    <div class="spacer">
+        <div class="bulletin-item-type">
+                <a href="http://blog.stackoverflow.com/2016/10/podcast-89-the-decline-of-stack-overflow-has-been-greatly-exaggerated/?cb=1" class="question-hyperlink">
+<div class="favicon favicon-stackexchangemeta" title="Meta Stack Exchange"></div>                </a>
+            </div>
+                <div class="bulletin-item-content">
+                    <a href="http://blog.stackoverflow.com/2016/10/podcast-89-the-decline-of-stack-overflow-has-been-greatly-exaggerated/?cb=1" title="Stack Overflow Podcast #89 - The Decline of Stack Overflow Has Been Greatly Exaggerated" class="question-hyperlink">Stack Overflow Podcast #89 - The Decline of Stack Overflow Has Been Greatly…</a>
+                </div>
+                <br class="cbt">
+            </div>
+    </div>
+</div>			
+			<script>
+                var ados = ados || {}; ados.run = ados.run || [];
+                ados.run.push(function () { ados_add_placement(22,0,"adzerk1149369039",[5,17]).enableDynamicSiteSelection().setZone(56016); });
+            </script>
+            <div class="everyonelovesstackoverflow adzerk-vote" id="adzerk1149369039"><div style="background-image: url( data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== ); width: 1px; height: 1px; display:none;"></div><div class="adzerk-vote-controls" style="display:none;"><div class="adzerk-vote-option adzerk-vote-up"><div class="adzerk-vote-icon"></div></div><div class="adzerk-vote-option adzerk-vote-down"><div class="adzerk-vote-icon"></div></div></div><div class="adzerk-vote-survey" style="display:none;"><form><span>No problem. We won't show you that ad again. Why didn't you like it?</span><ul><li><label><input value="12" name="downvoteReason" type="radio">Uninteresting</label></li><li><label><input value="13" name="downvoteReason" type="radio">Misleading</label></li><li><label><input value="14" name="downvoteReason" type="radio">Offensive</label></li><li><label><input value="15" name="downvoteReason" type="radio">Repetitive</label></li><li><label><input value="16" name="downvoteReason" type="radio">Other</label></li></ul><a href="#" class="adzerk-vote-cancel">Oops! I didn't mean to do this.</a></form></div><img style="position:absolute;" src="administration%20-%20Important%20scripts%20useful%20for%20a%20Linux%20system%20administrator%20-%20Unix%20&amp;%20Linux%20Stack%20Exchange_files/i.gif" width="0px" height="0px" border="0"></div>
+			
+
+            
+
+				<div class="module sidebar-related">
+					<h4 id="h-related">Related</h4>
+                    <div class="related js-gps-related-questions" data-tracker="rq=1">
+                        <div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/15153?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">0</div></a><a href="http://unix.stackexchange.com/questions/15153/smitty-like-solution-under-linux-or-bsd?rq=1" class="question-hyperlink">Smitty like solution under Linux or BSD?</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/40401?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">8</div></a><a href="http://unix.stackexchange.com/questions/40401/linux-bulk-remote-administration?rq=1" class="question-hyperlink">Linux Bulk/Remote Administration</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/74254?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">0</div></a><a href="http://unix.stackexchange.com/questions/74254/how-to-limit-administrative-privileges-to-various-config-files?rq=1" class="question-hyperlink">How to limit administrative privileges to various config files?</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/84584?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">1</div></a><a href="http://unix.stackexchange.com/questions/84584/which-book-of-those-two-should-i-read-to-study-networking-for-unix-linux-adminis?rq=1" class="question-hyperlink">Which book of those two should i read to study networking for Unix/Linux administrator?</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/106201?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">4</div></a><a href="http://unix.stackexchange.com/questions/106201/what-is-a-program-i-can-use-to-mess-up-a-gnu-linux-system-in-an-automated-way?rq=1" class="question-hyperlink">What is a program I can use to mess up a GNU/Linux system in an automated way?</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/107622?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">2</div></a><a href="http://unix.stackexchange.com/questions/107622/manage-another-linux-installation-on-another-partition-in-the-same-computer?rq=1" class="question-hyperlink">Manage another Linux installation on another partition in the same computer</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/120500?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="http://unix.stackexchange.com/questions/120500/how-to-issue-a-warning-to-administrator-when-the-administrator-issues-a-system?rq=1" class="question-hyperlink">How to issue a warning to administrator (when the administrator issues a system restart) when user has process running</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/138485?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">2</div></a><a href="http://unix.stackexchange.com/questions/138485/is-there-a-way-to-administrate-multiple-computers-at-the-same-time?rq=1" class="question-hyperlink">Is there a way to administrate multiple computers at the same time?</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/140812?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">2</div></a><a href="http://unix.stackexchange.com/questions/140812/att-unix-system-v-release-4-how-do-i-create-a-new-administrator-user?rq=1" class="question-hyperlink">AT&amp;T UNIX System V Release 4 - How do I create a new “Administrator” user?</a></div><div class="spacer js-gps-track"><a href="http://unix.stackexchange.com/q/210490?rq=1" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">2</div></a><a href="http://unix.stackexchange.com/questions/210490/do-i-need-a-computer-science-degree-to-have-a-successful-career-in-linux?rq=1" class="question-hyperlink">Do I need a computer science degree to have a successful career in Linux?</a></div>
+                    </div>
+				</div>
+            
+<div id="hot-network-questions" class="module">
+    <h4>
+        <a href="http://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })">
+            Hot Network Questions
+        </a>
+    </h4>
+    <ul>
+            <li>
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1952197/odd-number-of-cats" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Odd Number of Cats?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/88736/what-can-i-do-to-trigger-spout-lore-or-discern-realities" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What can I do to trigger Spout Lore or Discern Realities?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="http://scifi.stackexchange.com/questions/142141/why-did-vizzini-have-the-wine-and-tablecloth-all-laid-out" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Why did Vizzini have the wine and tablecloth all laid out?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-superuser" title="Super User"></div><a href="http://superuser.com/questions/1130932/does-using-opendns-or-google-dns-affect-anything" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Does using OpenDNS or Google DNS affect anything?
+                </a>
+
+            </li>
+            <li>
+                <div class="favicon favicon-parenting" title="Parenting Stack Exchange"></div><a href="http://parenting.stackexchange.com/questions/27277/my-girlfriend-has-mentioned-disowning-her-14-y-o-transgender-daughter" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:228 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    My girlfriend has mentioned disowning her 14 y/o transgender daughter
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="http://ux.stackexchange.com/questions/99976/ios-multiple-selection" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:102 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    iOS - multiple selection
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-magento" title="Magento Stack Exchange"></div><a href="http://magento.stackexchange.com/questions/139225/fatal-error-call-to-a-member-function-create-on-null-in-magento-2" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:479 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Fatal error: Call to a member function create() on null in Magento 2
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/80050/whats-an-easy-way-of-making-my-luggage-unique-so-that-its-easy-to-spot-on-the" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What's an easy way of making my luggage unique, so that it's easy to spot on the luggage carousel?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/80109/leaving-my-passport-at-the-embassy-to-receive-a-visa-but-it-is-my-only-identific" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Leaving my passport at the embassy to receive a visa but it is my only identification document
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/105533/passive-voice-construction-that-evils-had-power-was-believed" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    passive voice construction: "That evils had power was believed...."
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-history" title="History Stack Exchange"></div><a href="http://history.stackexchange.com/questions/33103/were-slings-used-for-throwing-hand-grenades-if-not-why" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Were slings used for throwing hand grenades? If not, why?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/832877/delete-files-older-than-5-days-as-well-as-in-all-subfolders" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Delete files older than 5 days as well as in all subfolders
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="http://electronics.stackexchange.com/questions/261274/125-mw-resistor-subjected-to-600-mw-dissipation-in-professional-safety-system" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    125 mW resistor subjected to 600 mW dissipation in professional safety system
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="http://rpg.stackexchange.com/questions/88708/how-much-damage-does-lava-do" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How much damage does lava do?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-blender" title="Blender Stack Exchange"></div><a href="http://blender.stackexchange.com/questions/64263/how-to-extrude-an-irregular-shape-into-a-cylinder" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to extrude an irregular shape into a cylinder?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange"></div><a href="http://unix.stackexchange.com/questions/313940/can-i-prevent-a-folder-of-a-certain-name-being-created" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Can I prevent a folder of a certain name being created?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-portuguese" title="Portuguese Language Stack Exchange"></div><a href="http://portuguese.stackexchange.com/questions/3705/em-pt-pt-droga-%c3%a9-entendida-como-rem%c3%a9dio" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:625 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Em PT-pt "droga" é entendida como remédio?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="http://travel.stackexchange.com/questions/80022/how-to-search-for-a-flight-when-dates-and-cities-are-flexible-but-non-direct-fli" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to search for a flight when dates and cities are
+ flexible but non-direct flights must not pass through a particular 
+country?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-ell" title="English Language Learners Stack Exchange"></div><a href="http://ell.stackexchange.com/questions/105506/what-is-the-status-of-prepositions-in-the-expressions-where-the-gerund-is-the-ob" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    What is the status of prepositions in the expressions where the gerund is the object?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange"></div><a href="http://skeptics.stackexchange.com/questions/35336/was-donald-trumps-father-a-member-of-the-kkk" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Was Donald Trump's father a member of the KKK?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="http://worldbuilding.stackexchange.com/questions/57433/wwii-invasion-of-earth" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    WWII Invasion of Earth
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="http://math.stackexchange.com/questions/1951458/are-all-numbers-just-one-value-transformed-by-a-function" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:69 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Are all "numbers" just one value transformed by a function?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-askubuntu" title="Ask Ubuntu"></div><a href="http://askubuntu.com/questions/832779/how-to-copy-files-from-wine-to-desktop" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    How to copy files from Wine to desktop?
+                </a>
+
+            </li>
+            <li class="dno js-hidden" style="display: list-item;">
+                <div class="favicon favicon-earthscience" title="Earth Science Stack Exchange"></div><a href="http://earthscience.stackexchange.com/questions/8806/are-there-any-saltwater-rivers-on-earth" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:553 }); posts_hot_network.click({ item_type:2, location:11 })">
+                    Are there any saltwater rivers on Earth?
+                </a>
+
+            </li>
+    </ul>
+
+        
+</div>
+		</div>
+		<script>
+StackExchange.ready(function(){$.get('/posts/125726/ivc/b2f9');});
+</script>
+<noscript>
+    <div><img src="/posts/125726/ivc/b2f9" class="dno" alt="" width="0" height="0"></div>
+</noscript><div style="display:none" id="prettify-lang"></div></div>
+
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">            
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="http://unix.stackexchange.com/tour">tour</a>
+                    <a href="http://unix.stackexchange.com/help">help</a>
+                    <a href="http://blog.stackoverflow.com/?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com/?tab=site&amp;host=unix.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com/">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="http://unix.stackexchange.com/contact">contact us</a></b>
+                        <b><a href="http://meta.unix.stackexchange.com/">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tbody><tr>
+            <th colspan="4">
+                Technology
+            </th>
+            <th colspan="2">
+                Life / Arts
+            </th>
+            <th colspan="2">
+                Culture / Recreation
+            </th>
+            <th colspan="2">
+                Science
+            </th>
+            <th>
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com/" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com/" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com/" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com/" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com/" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com/" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com/" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com/" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com/" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com/" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com/" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com/" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="http://gis.stackexchange.com/" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com/" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com/" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com/" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com/" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com/" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com/" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com/" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com/" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="http://salesforce.stackexchange.com/" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="http://expressionengine.stackexchange.com/" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+                        <li><a href="http://crypto.stackexchange.com/" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://codereview.stackexchange.com/" title="peer programmer code reviews">Code Review</a></li>
+                        <li><a href="http://magento.stackexchange.com/" title="users of the Magento e-Commerce platform">Magento</a></li>
+                        <li><a href="http://dsp.stackexchange.com/" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                        <li><a href="http://raspberrypi.stackexchange.com/" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                        <li><a href="http://codegolf.stackexchange.com/" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com/" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com/" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://graphicdesign.stackexchange.com/" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="http://movies.stackexchange.com/" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="http://music.stackexchange.com/" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                        <li><a href="http://cooking.stackexchange.com/" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com/" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="http://money.stackexchange.com/" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://academia.stackexchange.com/" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (8)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com/" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com/" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com/" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com/" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com/" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://ell.stackexchange.com/" title="speakers of other languages learning English">English Language Learners</a></li>
+                        <li><a href="http://japanese.stackexchange.com/" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                        <li><a href="http://gaming.stackexchange.com/" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://bicycles.stackexchange.com/" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com/" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                        <li><a href="http://anime.stackexchange.com/" title="anime and manga fans">Anime &amp; Manga</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (18)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com/" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com/" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com/" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com/" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net/" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="http://chemistry.stackexchange.com/" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="http://biology.stackexchange.com/" title="biology researchers, academics, and students">Biology</a></li>
+                        <li><a href="http://cs.stackexchange.com/" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://philosophy.stackexchange.com/" title="those interested in logical reasoning">Philosophy</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (3)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com/" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackexchange.com/" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="http://area51.stackexchange.com/" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com/">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</tbody></table>
+                </div>
+            </div>
+            <div id="copyright">
+                site design / logo © 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.10.4.4031
+            </div>
+                <div id="additional-notices">
+                    Linux is a registered trademark of Linus Torvalds. UNIX is a registered trademark of The Open Group. <br>This site is not affiliated with Linus Torvalds or The Open Group in any way.
+                </div>
+                </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Unix &amp; Linux Stack Exchange works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+<script>
+    var ados = ados || {};
+    ados.run = ados.run || [];
+    
+    
+        
+        ados.run.push(function () {
+                ados_setKeywords('administration,x-community,x-host-unix.stackexchange.com');; ados_load();
+        });   
+        
+</script>
+
+    <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            
+            ga('create', 'UA-5620270-24', {'cookieDomain': 'stackexchange.com'});
+            ga('set', 'dimension2', '|administration|');             ga('send', 'pageview');
+        
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+                qc.async = true;
+                qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                s.parentNode.insertBefore(qc, s);
+                _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+                            var sc=document.createElement('script');
+                sc.async=true;
+                sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+                s.parentNode.insertBefore(sc, s);
+                _comscore.push({ c1: "2", c2: "17440561" });
+        })();
+
+    </script>
+        
+    
+            <script type="text/javascript">
+                
+                (function(appendChild) {
+                    Node.prototype.appendChild = function() {
+                        var parent = this;
+                        var newNode = arguments[0];
+                        if (parent.nodeName === 'HEAD'
+                            && newNode
+                            && newNode.nodeName === 'SCRIPT'
+                            && newNode.src) {
+                            
+                            window.setTimeout(function() {
+                                var result = newNode.src.match(/^https:\/\/maps\.googleapis\.com\/maps\/api\/place\/js\/(\w+)Service\./i) || [];
+                                var service = result[1];
+                                if (service) {
+                                    if (service === 'Autocompletion') service =  2;
+                                    else if (service === 'Place') service = 1;
+                                    else service = 0;
+                                    StackExchange.using('gps', function() {
+                                        StackExchange.gps.track('google_maps_places_api.call', { service: service });
+                                    });
+                                }
+                            }, 0);
+                        }
+                        return appendChild.apply(this, arguments);
+                    };
+                })(Node.prototype.appendChild);
+            </script>
+    
+</body></html>

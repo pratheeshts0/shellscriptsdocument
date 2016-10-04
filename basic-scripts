@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+user-creation by typing individual username
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+#!/bin/bash
+ID=`/usr/bin/id -u`
+echo " your id is $ID "
+if [ $ID != 0 ];then
+echo "only root user can add new users; you are not allowed"
+else
+echo "enter the name of user"
+read USER
+useradd  --password $USER --shell /bin/bash --create-home $USER
+# set password
+echo "$USER:$USER" | chpasswd
+chage -d 0 $USER
+fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+user-creation from a file
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+#!/bin/bash
+ID=`/usr/bin/id -u`
+echo " your id is $ID "
+if [ $ID != 0 ];then
+echo "only root user can add new users; you are not allowed"
+else
+if [ -f /home/user ];then
+for USER in $(cat /home/user);do
+useradd  --password $USER --shell /bin/bash --create-home $USER
+#userdel -r $USER
+# set password
+echo "$USER:$USER" | chpasswd
+chage -d 0 $USER
+done
+else
+echo "user file not found"
+fi
+fi
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+tar creation
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+#!/bin/bash
+T=`date +%Y-%h-%d-%H:%M:%S`
+F=backup-$T.tar.gz
+S=/home
+D=/
+tar -czf $D/$F $S
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
